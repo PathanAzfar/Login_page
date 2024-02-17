@@ -41,24 +41,25 @@ a{
 }
 h3{
     position: relative;
+    max-width:205px;
 }
 h3:before{
     background-color: black;
     display: block;
-    width: 10vw;
+    width: 80px;
     height: 1px;
     content: "";
     position: absolute;
-    left: 36%;
+    left: 0;
     top: 50%;
 }
 h3::after{
     background-color: black;
     display: block;
-    width: 10vw;
+    width: 80px;
     height: 1px;
     content: "";
     position: absolute;
-    right: 36%;
+    right: 0;
     top: 50%;
 }
